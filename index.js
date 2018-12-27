@@ -39,8 +39,6 @@ function viewCart() {
   console.log(threePlusItems)
 }
 
-viewCart()
-
 function total() {
   // write your code here
   var cartItemPrice = [];
@@ -56,8 +54,6 @@ function total() {
   }
   return totalPrice
 }
-
-total()
 
 function removeFromCart(item) {
   // write your code here
